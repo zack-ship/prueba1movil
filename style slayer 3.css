@@ -4,12 +4,24 @@ body{background-image: url(io6.jpg);
     background-size: cover;
     background-attachment:  fixed;
 
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
 
 }
 @media (min-width: 991px) {
 .tablet {display: none;
     }
 .movil{ display: none;
+    }
+}
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
     }
 }
 
