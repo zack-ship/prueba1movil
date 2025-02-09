@@ -6,7 +6,12 @@ body{background-image: url(io6.jpg);
 
 
 }
-
+@media (min-width: 991px) {
+.tablet {display: none;
+    }
+.movil{ display: none;
+    }
+}
 
 
 
